@@ -89,19 +89,14 @@ export default function Login() {
                 {errors.password && <p className="error-text">{errors.password}</p>}
                 <p className="subtext">Forgot Password?</p>
               </div>
-              <button 
-               className="submit-btn" type="submit">
-                Submit
-              </button>
-              <p className="last-text">
-                Don’t have an account yet?{" "}
-                <span className="last-span">Register for free</span>
-              </p>
             </form>
 
             <button type="submit" className="signup-btn">
               <Link to={"/signup"}>Sign Up</Link>
             </button>
+            <p className="last-text">
+              Already have an account? Sign in
+              </p>
           </div>
         </div>
       </div>
