@@ -6,12 +6,15 @@
 .box {
   display: flex;
   justify-content: center;
-  width: 453px;
-  height: 628px;
-  top: 410px;
-  left: 743px;
+  width: Fixed (350px)px;
+  height: Fixed (44.96px)px;
+  top: -96.07px;
+  left: -8754px;
+  padding: 0px 8px 0px 8px;
   gap: 0px;
-  border-radius: 20px 0px 0px 0px;
+  border-radius: 12px 0px 0px 0px;
+  opacity: 0px;  
+  gap: 0px;
   opacity: 0px;
   height: fit-content;
   background: #5882c147;
@@ -129,7 +132,7 @@
   border-radius: 11px;
   margin-bottom: 59px;
   text-align: center;
-  margin-left: 30px;
+  margin-left: 45px;
 }
 .signup-btn:hover{
   opacity: 0.5;
