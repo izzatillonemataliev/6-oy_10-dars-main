@@ -63,10 +63,6 @@ export default function Login() {
       <div className="container login-container">
         <div className="box">
           <div className="box-wrapper">
-            <div className="logo">
-              <p className="p-text">your logo</p>
-              <p className="login-h1">login</p>
-            </div>
             <form className="form" onSubmit={handleSubmit}>
               <div className="email-div">
                 <p className="email">Email</p>
