@@ -36,6 +36,5 @@ a {
   padding-right: 20px;
 }
 body {
-  background-size: cover;
-  background-image: url(./public/images/nature.jpg);
+  background: linear-gradient(159.02deg, #0F123B 14.25%, #090D2E 56.45%, #020515 86.14%);
 }
